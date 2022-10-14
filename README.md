@@ -1,5 +1,6 @@
 ## How to use: 
  1. Uncomment lines in terraform.tf and replace with real values (see example and description in variable.tf):
+ <u>Because provider block does not support variables, be sure tu insert real values in terraform.tf</u>
 ```bash
 #pm_api_url = var.proxmox_url
 #pm_password = var.proxmox_password
